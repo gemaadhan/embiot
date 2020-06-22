@@ -1,4 +1,4 @@
-package com.gemaadhan.embiot.pagerovertime.overtime
+package com.gemaadhan.embiot.overtime
 
 import android.widget.TextView
 import androidx.databinding.BindingAdapter

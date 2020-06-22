@@ -20,10 +20,10 @@
     <fragment
         android:id="@+id/formovertimeFragment"
         tools:layout="@layout/fragment_formovertime"
-        android:name="com.gemaadhan.embiot.pagerovertime.formovertime.FormovertimeFragment"
+        android:name="com.gemaadhan.embiot.formovertime.FormovertimeFragment"
         android:label="FormovertimeFragment" />
     <fragment
         android:id="@+id/showovertimeFragment"
-        android:name="com.gemaadhan.embiot.pagerovertime.overtime.ShowovertimeFragment"
+        android:name="com.gemaadhan.embiot.overtime.ShowovertimeFragment"
         android:label="ShowovertimeFragment" />
 </navigation>

@@ -1,4 +1,4 @@
-package com.gemaadhan.embiot.pagerovertime.overtime
+package com.gemaadhan.embiot.overtime
 
 import android.app.Application
 import androidx.lifecycle.ViewModel
