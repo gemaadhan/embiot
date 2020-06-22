@@ -24,8 +24,8 @@ class DashboardFragment : Fragment() {
         val binding: FragmentDashboardBinding =
             DataBindingUtil.inflate(inflater, R.layout.fragment_dashboard, container, false)
 
-        binding.cardView3.setOnClickListener { this.findNavController().navigate(R.id.action_dashboardFragment_to_formovertimeFragment) }
-        binding.cardView.setOnClickListener { this.findNavController().navigate(R.id.action_dashboardFragment_to_showovertimeFragment) }
+        binding.cardView3.setOnClickListener { this.findNavController().navigate(R.id.action_dashboardFragment_to_pagerOvertimeFragment) }
+
         return binding.root
     }
 

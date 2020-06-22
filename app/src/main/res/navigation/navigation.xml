@@ -11,19 +11,18 @@
         android:name="com.gemaadhan.embiot.DashboardFragment"
         android:label="DashboardFragment" >
         <action
-            android:id="@+id/action_dashboardFragment_to_formovertimeFragment"
-            app:destination="@id/formovertimeFragment" />
-        <action
             android:id="@+id/action_dashboardFragment_to_showovertimeFragment"
             app:destination="@id/showovertimeFragment" />
+        <action
+            android:id="@+id/action_dashboardFragment_to_pagerOvertimeFragment"
+            app:destination="@id/pagerOvertimeFragment" />
     </fragment>
-    <fragment
-        android:id="@+id/formovertimeFragment"
-        tools:layout="@layout/fragment_formovertime"
-        android:name="com.gemaadhan.embiot.formovertime.FormovertimeFragment"
-        android:label="FormovertimeFragment" />
     <fragment
         android:id="@+id/showovertimeFragment"
         android:name="com.gemaadhan.embiot.overtime.ShowovertimeFragment"
         android:label="ShowovertimeFragment" />
+    <fragment
+        android:id="@+id/pagerOvertimeFragment"
+        android:name="com.gemaadhan.embiot.PagerOvertimeFragment"
+        android:label="PagerOvertimeFragment" />
 </navigation>
